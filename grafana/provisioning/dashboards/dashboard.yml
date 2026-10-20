@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: "SkillPilot Dashboards"
+    orgId: 1
+    folder: "SkillPilot Monitoring"
+    type: file
+    disableDeletion: true
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
